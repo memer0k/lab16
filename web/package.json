@@ -1,0 +1,13 @@
+{
+  "name": "hello-world-moving",
+  "version": "1.0.0",
+  "description": "Анимированная надпись Привет, мир!",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "dev": "npx live-server"
+  },
+  "keywords": ["animation", "hello-world", "css", "javascript"],
+  "author": "Your Name",
+  "license": "MIT"
+}
