@@ -24,6 +24,7 @@ body {
 
 
 #moving-text {
+    font-family: 'Montserrat', 'Impact', 'Arial Black', sans-serif;
     font-size: 3rem;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -31,8 +32,9 @@ body {
     display: inline-block;
     cursor: pointer;
     transition: transform 0.3s;
+    letter-spacing: 2px;
+    font-weight: 900;
 }
-
 
 @keyframes moveAround {
     0% {
@@ -52,12 +54,10 @@ body {
     }
 }
 
-
 #moving-text:hover {
     animation-duration: 2s;
     transform: scale(1.1);
 }
-
 
 @media (max-width: 768px) {
     #moving-text {
